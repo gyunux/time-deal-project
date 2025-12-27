@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타임딜 상품 상세</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="product-image">
+            <img id="productImg" src="" alt="Product Image">
+        </div>
+
+        <div class="product-details">
+            <span class="badge" id="dealBadge" style="display: none;">TIME DEAL 🔥</span>
+
+            <h1 id="productName">Loading...</h1>
+            <p class="price" id="productPrice"></p>
+
+            <div class="option-group">
+                <span class="option-title">색상</span>
+                <div class="chips" id="color-options">
+                </div>
+            </div>
+
+            <div class="option-group">
+                <span class="option-title">사이즈</span>
+                <div class="chips" id="size-options">
+                </div>
+            </div>
+
+            <button class="buy-btn" id="buyBtn">지금 구매하기</button>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
